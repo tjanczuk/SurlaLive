@@ -44,7 +44,7 @@
             this.webBrowser.ScrollBarsEnabled = false;
             this.webBrowser.Size = new System.Drawing.Size(724, 530);
             this.webBrowser.TabIndex = 0;
-            this.webBrowser.Url = new System.Uri("http://surla.mobi/upload/livewriter", System.UriKind.Absolute);
+            this.webBrowser.Url = new System.Uri("http://surla.mobi/upload/livewriter?v=1", System.UriKind.Absolute);
             this.webBrowser.Visible = false;
             this.webBrowser.WebBrowserShortcutsEnabled = false;
             // 
@@ -66,6 +66,8 @@
             this.Controls.Add(this.labelStatus);
             this.Controls.Add(this.webBrowser);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "PictureFromPhoneForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Insert picture from phone";

@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("PictureFromPhone")]
-[assembly: AssemblyDescription("Paste pictures from your smartphone into Windows Live")]
+[assembly: AssemblyDescription("Paste pictures from your phone into Windows Live Writer")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("PictureFromPhone")]
